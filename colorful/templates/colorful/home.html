@@ -1,0 +1,11 @@
+<form action="{% url 'colorize' %}" method="post">
+{% csrf_token %}
+
+    <form action="{% url 'home' %}">
+
+        <label for="">Color: </label>
+        <input type="text" name="color-name">
+        <input type="submit">
+
+    </form>
+</form>
